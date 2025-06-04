@@ -84,139 +84,99 @@ export default function Home() {
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"></link>
             <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet" />
 
-            <Section id="home" className="bg-[#f4b033] px-0 pt-20 pb-8">
-                <div className="grid lg:grid-cols-2 items-center gap-12 max-w-7xl mx-auto">
+            <Section id="beranda" className="bg-[#012F1F] mx-20 rounded-2xl mt-20 p-2">
+                <div className="grid lg:grid-cols-2 items-center gap-12">
                     {/* Text Content */}
-                    <div className="space-y-6 px-15">
-                        <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-                            Seemless <br className="hidden md:block" />
-                            Service <br />
-                            <span className="">Solution</span>
+                    <div className="space-y-4 px-5 ml-10">
+                        <h1 className="text-4xl md:text-5xl font-bold leading-tight text-[#7BD73E] max-w-90">
+                        <div data-aos="fade-up" data-aos-delay="100">Truly circular</div>
+                        <div data-aos="fade-up" data-aos-delay="200">reusing</div>
+                        <div data-aos="fade-up" data-aos-delay="300">nutrients from</div>
+                        <div data-aos="fade-up" data-aos-delay="400">aquaculture</div>
                         </h1>
-                        <p className="text-xl max-w-xl">
-                            We craft exceptional websites, robust systems, and innovative mobile applications that help businesses thrive in the digital landscape.
-                        </p>
-                        <div className="flex gap-4 flex-wrap">
-                            <button className="flex bg-orange-500 text-white text-xl px-6 py-4 rounded-xl font-semibold hover:bg-orange-600 transition cursor-pointer">
-                            Get Started
+                        <div data-aos="fade-up" data-aos-delay="500" className="flex gap-4 flex-wrap">
+                            <button className="flex bg-[#7BD73E] text-white text-xl px-6 py-2 rounded-xl font-semibold hover:bg-green-600 transition cursor-pointer">
+                            Preview
                             </button>
                         </div>
                     </div>
 
-                    {/* Hero Image */}
-                    <div className="relative top-13">
-                        <img src="/assets/background_header.png" alt="Hero Illustration" className="w-full max-w-md lg:max-w-full mx-auto"/>
-                        <FloatingIcon className="left-[20%] top-[10%]" delay={0}>
-                            <div className='bg-[#FF8345] text-white rotate-20 text-2xl z-20 w-11 h-11 justify-center items-center flex rounded-lg '>
-                                <i class="ri-star-line"></i>
-                            </div>
-                        </FloatingIcon>
-
-                        <FloatingIcon className="left-[60%] top-[20%]" delay={0.5}>
-                            <div className='bg-[#48B774] text-white text-2xl z-20 w-11 h-11 justify-center items-center flex rounded-lg'>
-                                <i class="ri-checkbox-line"></i>
-                            </div>
-                        </FloatingIcon>
-
-                        <FloatingIcon className="left-[10%] top-[80%]" delay={0.5}>
-                            <div className='bg-[#48B774] text-white -rotate-50 text-2xl z-20 w-11 h-11 justify-center items-center flex rounded-lg'>
-                                <i class="ri-briefcase-line"></i>
-                            </div>
-                        </FloatingIcon>
-
-                        <FloatingIcon className="left-[20%] top-[60%]" delay={0}>
-                            <div className='bg-[#48B774] text-white -rotate-50 text-2xl z-20 w-3 h-3 justify-center items-center flex rounded-sm'></div>
-                        </FloatingIcon>
-
-                        <FloatingIcon className="left-[50%] top-[30%]" delay={0.5}>
-                            <div className='bg-[#48B774] text-white -rotate-50 text-2xl z-20 w-3 h-3 justify-center items-center flex rounded-sm'></div>
-                        </FloatingIcon>
-
-                        <FloatingIcon className="left-[47%] top-[10%]" delay={0}>
-                            <div className='bg-[#FF8345] text-white -rotate-50 text-2xl z-20 w-3 h-3 justify-center items-center flex rounded-sm'></div>
-                        </FloatingIcon>
-                        
-                        <FloatingIcon className="left-[10%] top-[4%]" delay={0.5}>
-                            <div className='bg-[#48B774] text-white -rotate-50 text-2xl z-20 w-3 h-3 justify-center items-center flex rounded-sm'></div>
-                        </FloatingIcon>
+                    <div data-aos="fade-left" className="relative top-0 right-15">
+                        <img src="/assets/img-heading.png" alt="Hero Illustration" className="w-full max-w-md lg:max-w-full mx-auto"/>
                     </div>
                 </div>
-                <div className="bg-[#F8FFF9] w-full mt-9 z-10 slider-container"> 
-                    <div className="slider-track py-2">
-                        <img src="/assets/evos+-logo.png" alt="" className="max-w-26"/>
-                        <img src="/assets/arhan-logo.png" alt="" className="max-w-50"/>
-                        <img src="/assets/kongsi-logo.png" alt="" className="max-w-50"/>
-                        <img src="/assets/hubitat-logo.jpg" alt="" className="max-w-35"/>
 
-                        <img src="/assets/evos+-logo.png" alt="" className="max-w-26"/>
-                        <img src="/assets/arhan-logo.png" alt="" className="max-w-50"/>
-                        <img src="/assets/kongsi-logo.png" alt="" className="max-w-50"/>
-                        <img src="/assets/hubitat-logo.jpg" alt="" className="max-w-35"/>
-
-                        <div style={{ width: '20px', flexShrink: 0 }} aria-hidden="true"></div>
-                    </div>
-                </div>
             </Section>
 
-            <Section id="what_we_do" className="py-10">
+            <Section id="bottomheader" className="py-10">
                 <div className="container mx-auto px-15">
                     <div data-aos="fade-up" className="mb-12">
-                        <h5 className="uppercase text-lg font-semibold text-[#F55F1D] mb-4">What we do</h5>
-                        <p className="text-2xl font-bold max-w-95">We provide the Perfect Solution to your business growth</p>
-                    </div>
-                    <div className="grid md:grid-cols-3 gap-8">
-                        <div data-aos="fade-up" data-aos-delay="150" className="group bg-white text-black p-6 rounded-3xl hover:shadow-[1px_-1px_10px_rgba(0,0,0,0.2)]">
-                            <div className="mb-4 text-blue-600">
-                            {/* Ganti dengan ikon sesuai kebutuhan */}
-                            <div className="rounded-2xl bg-[#F5E9D7] w-20 h-20 flex items-center justify-center">
-                                <i class="ri-exchange-funds-fill text-black text-4xl"></i>
-                            </div>
-                            </div>
-                            <h4 className="text-xl font-semibold text-gray-800 mb-2">Grow Your Business</h4>
-                            <p className="text-gray-600 mb-6">We help identify the best ways to improve your business</p>
-                            <button href="#" class="group-hover:bg-[#F55F1D] group-hover:text-white p-4 rounded-xl font-normal flex items-center gap-2 hover:gap-3 transition-all cursor-pointer">
-                                Learn More
-                                <div class="w-5 h-5 flex items-center justify-center">
-                                    <i class="ri-arrow-right-line"></i>
-                                </div>
-                            </button>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="300" className="group bg-white text-black p-6 rounded-3xl hover:shadow-[1px_-1px_10px_rgba(0,0,0,0.2)]">
-                            <div className="mb-4 text-blue-600">
-                            {/* Ganti dengan ikon sesuai kebutuhan */}
-                            <div className="rounded-2xl bg-[#F5E9D7] w-20 h-20 flex items-center justify-center">
-                                <i class="ri-heart-2-line text-black text-4xl"></i>
-                            </div>
-                            </div>
-                            <h4 className="text-xl font-semibold text-gray-800 mb-2">Improve brand loyalty</h4>
-                            <p className="text-gray-600 mb-6">We help identify the best ways to improve your business</p>
-                            <button href="#" class="group-hover:bg-[#F55F1D] group-hover:text-white p-4 rounded-xl font-normal flex items-center gap-2 hover:gap-3 transition-all cursor-pointer">
-                                Learn More
-                                <div class="w-5 h-5 flex items-center justify-center">
-                                    <i class="ri-arrow-right-line"></i>
-                                </div>
-                            </button>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="450" className="group bg-white text-black p-6 rounded-3xl hover:shadow-[1px_-1px_10px_rgba(0,0,0,0.2)]">
-                            <div className="mb-4 text-blue-600">
-                            {/* Ganti dengan ikon sesuai kebutuhan */}
-                            <div className="rounded-2xl bg-[#F5E9D7] w-20 h-20 flex items-center justify-center">
-                                <i class="ri-briefcase-4-line text-black text-4xl"></i>
-                            </div>
-                            </div>
-                            <h4 className="text-xl font-semibold text-gray-800 mb-2">Improve Business Model</h4>
-                            <p className="text-gray-600 mb-6">We help identify the best ways to improve your business</p>
-                            <button href="#" class="group-hover:bg-[#F55F1D] group-hover:text-white p-4 rounded-xl font-normal flex items-center gap-2 hover:gap-3 transition-all cursor-pointer">
-                                Learn More
-                                <div class="w-5 h-5 flex items-center justify-center">
-                                    <i class="ri-arrow-right-line"></i>
-                                </div>
-                            </button>
+                        <h1 className="text-3xl font-bold my-6 mb-17 text-center">
+                        Perangkat lunak yang dirancang untuk membantu petani dan pelaku industri pertanian dalam mengelola kegiatan pertanian secara lebih efisien
+                        </h1>
+                        <div className='flex items-center justify-center w-15 h-15 border-2 rounded-full mx-auto bg-[#7BD73E] hover:bg-[#012F1F] hover:text-white hover:border-white cursor-pointer animate-bounce transition-all duration-300'>
+                            <i class="ri-arrow-down-long-line text-3xl"></i>
                         </div>
                     </div>
                 </div>
             </Section>
-                
+            
+            <Section id="introduce" className="bg-[#7BD73E] mx-20 rounded-2xl mt-20 p-2">
+                <div className="grid lg:grid-cols-2 items-center gap-12">
+                    {/* Text Content */}
+                    <div className="space-y-4 px-5 ml-10 py-7">
+                        <h4 className="text-2xl md:text-4xl font-semibold leading-tight max-w-200">
+                            INTRODUCING <b>KELOR APP</b>
+                        </h4>
+                        <p className='text-lg'>
+                            Kendalikan operasi pertanian Anda dengan aplikasi yang dirancang untuk petani yang aktif. Tanpa basa-basi, hanya perangkat yang Anda butuhkan untuk berhasil.
+                        </p>
+                    </div>
+
+                    <div className="absolute top-187 right-40">
+                        <img src="/assets/laptop.png" alt="Hero Illustration" className="w-full max-w-sm lg:max-w-140 mx-auto"/>
+                    </div>
+                    <div className="absolute top-225 right-40">
+                        <img src="/assets/handphone.png" alt="Hero Illustration" className="w-full max-w-40 lg:max-w-70 mx-auto"/>
+                    </div>
+                </div>
+
+            </Section>
+            
+            <Section id="dashboard" className="py-10 mt-20">
+                <div className="container mx-auto px-15">
+                    <div className="mb-2 text-center">
+                        <h1 className="text-3xl font-bold my-6 mb-2 max-w-250 mx-auto">
+                            Ucapkan Selamat Tinggal pada Pertanian Manual dan Gunakan AgriERP untuk Manajemen Pertanian Anda
+                        </h1>
+                        <p className='text-2xl'>
+                            Membudidayakan pertanian yang berhasil untuk masa depan
+                        </p>
+                    </div>
+                    <img src="/assets/ss_dashboard.png" alt="Hero Illustration" className="w-full max-w-xl lg:max-w-full mx-auto"/>
+                </div>
+            </Section>
+            
+            <Section id="petani" className="py-10 mt-20">
+                <div className="container mx-auto px-15">
+                    <div className="mb-4 text-center">
+                        <h1 className="text-3xl font-bold my-6 mb-2 max-w-250 mx-auto">
+                            Memberdayakan semua jenis petani
+                        </h1>
+                        <p className='text-2xl'>
+                            Satu Platform yang Kuat Untuk Semua Kebutuhan Pertanian
+                        </p>
+                    </div>
+                    <div className='w-full mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 text-center'>
+                        <div>Row Crop Farms</div>
+                        <div>Almond Farms</div>
+                        <div>Vegetable Farms</div>
+                        <div>Indoor Vertical Farms</div>
+                        <div>Nut and Citrus Farms</div>
+                    </div>
+                </div>
+            </Section>
+
             <Section id="4_icon" className='px-0'>
             <div className="bg-[#FDEDD0] py-20 w-full">
                 <div className="max-w-6xl mx-auto px-40 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 text-center">
