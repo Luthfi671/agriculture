@@ -157,9 +157,9 @@ export default function Home() {
                 </div>
             </Section>
             
-            <Section id="petani" className="py-10 mt-20">
-                <div className="container mx-auto px-15">
-                    <div className="mb-4 text-center">
+            <Section id="petani" className="py-10 mx-0 mt-20">
+                <div className="w-full mx-0">
+                    <div className="mb-4 text-center px-15">
                         <h1 className="text-3xl font-bold my-6 mb-2 max-w-250 mx-auto">
                             Memberdayakan semua jenis petani
                         </h1>
@@ -167,92 +167,78 @@ export default function Home() {
                             Satu Platform yang Kuat Untuk Semua Kebutuhan Pertanian
                         </p>
                     </div>
-                    <div className='w-full mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 text-center'>
-                        <div>Row Crop Farms</div>
-                        <div>Almond Farms</div>
-                        <div>Vegetable Farms</div>
-                        <div>Indoor Vertical Farms</div>
-                        <div>Nut and Citrus Farms</div>
+                    <div className='w-full mx-0 px-0 grid bg-black/50 text-white h-120 grid-cols-1 sm:grid-cols-2 md:grid-cols-5'>
+                        <div className="relative overflow-hidden group flex flex-col justify-end p-4 h-full">
+                            <div className="absolute inset-0 bg-[url('/assets/category/row_crop.png')] bg-cover bg-center transition-transform duration-500 ease-in-out transform group-hover:scale-110 z-0"></div>
+                            <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition duration-500 z-0"></div>
+                            <div className="relative z-10 text-white">
+                                <h3 className="mb-2 font-bold text-2xl">Row Crop Farms</h3>
+                                <p>
+                                    Streamline your row crop farm management with AgriERP's advanced features for real-time inventory tracking and resource optimization.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="relative overflow-hidden group flex flex-col justify-end p-4 h-full">
+                            <div className="absolute inset-0 bg-[url('/assets/category/almond.png')] bg-cover bg-center transition-transform duration-500 ease-in-out transform group-hover:scale-110 z-0"></div>
+                            <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition duration-500 z-0"></div>
+                            <div className="relative z-10 text-white">
+                                <h3 className="mb-2 font-bold text-2xl">Almond Farms</h3>
+                                <p>
+                                    AgriERP empowers almond farmers with specialized farm management solution to track and optimize every aspect of their orchard operations efficiently.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="relative overflow-hidden group flex flex-col justify-end p-4 h-full">
+                            <div className="absolute inset-0 bg-[url('/assets/category/vegetable_farm.png')] bg-cover bg-center transition-transform duration-500 ease-in-out transform group-hover:scale-110 z-0"></div>
+                            <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition duration-500 z-0"></div>
+                            <div className="relative z-10 text-white">
+                                <h3 className="mb-2 font-bold text-2xl">Vegetable Farms</h3>
+                                <p>
+                                    AgriERP enchances vegetable farming efficiency with smart inventory management tools for better crop and supply chain oversight.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="relative overflow-hidden group flex flex-col justify-end p-4 h-full">
+                            <div className="absolute inset-0 bg-[url('/assets/category/indoor_vertical_farm.png')] bg-cover bg-center transition-transform duration-500 ease-in-out transform group-hover:scale-110 z-0"></div>
+                            <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition duration-500 z-0"></div>
+                            <div className="relative z-10 text-white">
+                                <h3 className="mb-2 font-bold text-2xl">Indoor Vertical Farms</h3>
+                                <p>
+                                    Unlock precision farming in your vertical spaces with AgriERP's tailored solutions for managing diverse crop varieties.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="relative overflow-hidden group flex flex-col justify-end p-4 h-full">
+                            <div className="absolute inset-0 bg-[url('/assets/category/nut_cirtus.png')] bg-cover bg-center transition-transform duration-500 ease-in-out transform group-hover:scale-110 z-0"></div>
+                            <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition duration-500 z-0"></div>
+                            <div className="relative z-10 text-white">
+                                <h3 className="mb-2 font-bold text-2xl">Nut and Citrus Farms</h3>
+                                <p>
+                                    Maximize yield for nut and citrus orchards with AgriERP's robust management systems for inventory control and operational efficiency.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </Section>
 
-            <Section id="4_icon" className='px-0'>
-            <div className="bg-[#FDEDD0] py-20 w-full">
-                <div className="max-w-6xl mx-auto px-40 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 text-center">
-                    <div data-aos="fade-up" data-aos-delay="150" className="flex flex-col items-center border-r last:border-none border-[#C4C4C480] px-4 py-10">
-                        <i class="ri-file-settings-line text-6xl mb-2"></i>
-                        <h3 className="text-sm font-medium text-gray-800 mb-1">Completed Projects</h3>
-                        <p className="text-[#F55F1D] font-bold text-3xl">
-                        {/* <AnimatedNumbers
-                            animateToNumber={1400}
-                            configs={() => ({ mass: 1.5, tension: 60, friction: 30 })}
-                            /> */}
-                        <CountUp end={1400} duration={8} />
-                         +</p>
-                    </div>
-                    <div data-aos="fade-up" data-aos-delay="300" className="flex flex-col items-center border-r last:border-none border-[#C4C4C480] px-4 py-10">
-                        <i class="ri-team-line text-6xl mb-2"></i>
-                        <h3 className="text-sm font-medium text-gray-800 mb-1">Customer Satisfaction</h3>
-                        <p className="text-[#F55F1D] font-bold text-3xl"><CountUp end={20} duration={8} delay={1} /> %</p>
-                    </div>
-                    <div data-aos="fade-up" data-aos-delay="450"className="flex flex-col items-center border-r last:border-none border-[#C4C4C480] px-4 py-10">
-                        <i class="bi bi-cash-coin text-6xl mb-2"></i>
-                        <h3 className="text-sm font-medium text-gray-800 mb-1">Raised by Clients</h3>
-                        <p className="text-[#F55F1D] font-bold text-3xl">$<CountUp end={10} duration={8} delay={1} />M</p>
-                    </div>
-                    <div data-aos="fade-up" data-aos-delay="600" className="flex flex-col items-center border-r last:border-none border-[#C4C4C480] px-4 py-10">
-                        <i class="bi bi-calendar2-week text-6xl mb-2"></i>
-                        <h3 className="text-sm font-medium text-gray-800 mb-1">Years in Business</h3>
-                        <p className="text-[#F55F1D] font-bold text-3xl"><CountUp end={2} duration={8} delay={1} /> yrs</p>
-                    </div>
-                </div>
-            </div>
-            </Section>
+            <Section id="mitra" className="py-10 mx-0">
+                <h1 className="text-3xl font-bold my-6 mb-2 max-w-250 mx-auto">
+                    Mitra kami
+                </h1>
+                <div className="bg-black/50 w-full mt-9 z-10 slider-container"> 
+                    <div className="slider-track py-2">
+                        <img src="/assets/evos+-logo.png" alt="" className="max-w-26"/>
+                        <img src="/assets/arhan-logo.png" alt="" className="max-w-50"/>
+                        <img src="/assets/kongsi-logo.png" alt="" className="max-w-50"/>
+                        <img src="/assets/hubitat-logo.jpg" alt="" className="max-w-35"/>
 
-            <Section id="our_portfolio" className='px-15'>
-                <div className="p-6 pt-0 md:p-12 md:pt-0">
-                    <div data-aos="fade-up" data-aos-offset="200" className="mb-12">
-                        <h5 className="uppercase text-lg font-semibold text-[#F55F1D] mb-4">Our Portfolio</h5>
-                        <p className="text-2xl font-bold max-w-95">We provide the Perfect Solution to your business growth</p>
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-y-20 gap-x-10">
-                        <div data-aos="fade-up" data-aos-delay="150" data-aos-offset="200" className="space-y-4">
-                            <img src='/assets/porto-1.png' className="shadow-md w-full object-cover"/>
-                            <h2 className="text-2xl font-bold">
-                                Digital Marketing Agency Website
-                            </h2>
-                            <p className="mr-10">
-                                This is a website for a client who want to achieve their goals and meet their users needs while also increasing their reach. Accross all platforms. This is a website rebrand
-                            </p>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="300" data-aos-offset="200" className="space-y-4">
-                            <img src='/assets/porto-2.png' className="shadow-md w-full object-cover"/>
-                            <h2 className="text-2xl font-bold">
-                                Digital Marketing Agency Website
-                            </h2>
-                            <p className="mr-10">
-                                This is a website for a client who want to achieve their goals and meet their users needs while also increasing their reach. Accross all platforms. This is a website rebrand
-                            </p>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="150" data-aos-offset="200" className="space-y-4">
-                            <img src='/assets/porto-3.png' className="shadow-md w-full object-cover"/>
-                            <h2 className="text-2xl font-bold">
-                                Digital Marketing Agency Website
-                            </h2>
-                            <p className="mr-10">
-                                This is a website for a client who want to achieve their goals and meet their users needs while also increasing their reach. Accross all platforms. This is a website rebrand
-                            </p>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="300" data-aos-offset="200" className="space-y-4">
-                            <img src='/assets/porto-4.png' className="shadow-md w-full object-cover"/>
-                            <h2 className="text-2xl font-bold">
-                                Digital Marketing Agency Website
-                            </h2>
-                            <p className="mr-10">
-                                This is a website for a client who want to achieve their goals and meet their users needs while also increasing their reach. Accross all platforms. This is a website rebrand
-                            </p>
-                        </div>
+                        <img src="/assets/evos+-logo.png" alt="" className="max-w-26"/>
+                        <img src="/assets/arhan-logo.png" alt="" className="max-w-50"/>
+                        <img src="/assets/kongsi-logo.png" alt="" className="max-w-50"/>
+                        <img src="/assets/hubitat-logo.jpg" alt="" className="max-w-35"/>
+
+                        <div style={{ width: '20px', flexShrink: 0 }} aria-hidden="true"></div>
                     </div>
                 </div>
             </Section>
@@ -260,10 +246,7 @@ export default function Home() {
             <Section id="testimoni" className="px-4 md:px-15">
                 <div data-aos="fade-up" data-aos-offset="200" className="flex justify-between items-center w-full p-12 pb-4">
                     <div>
-                        <h5 className="uppercase text-lg font-semibold text-[#F55F1D] mb-4">TESTIMONIALS</h5>
-                        <p className="text-2xl font-semibold max-w-95">
-                            See what our customers <br /> say about us
-                        </p>
+                        <h5 className="uppercase text-3xl font-bold mb-4">TESTIMONIALS</h5>
                     </div>
                     <div data-aos="fade-up" data-aos-offset="-100" className="flex items-center gap-3 ml-4 ">
                         <button
@@ -274,7 +257,7 @@ export default function Home() {
                         </button>
                         <button
                             onClick={handleNext}
-                            className="w-14 h-14 bg-orange-300 rounded-full flex items-center justify-center text-xl text-white cursor-pointer"
+                            className="w-14 h-14 bg-[#7BD73E] rounded-full flex items-center justify-center text-xl text-white cursor-pointer"
                         >
                             <i className="ri-arrow-right-line"></i>
                         </button>
@@ -322,129 +305,6 @@ export default function Home() {
                 </div>
             </Section>
 
-            <Section id="subscribe" className="px-4 md:px-15">
-                <div className="items-center w-full p-12 pb-4 mb-30">
-                    <div data-aos="fade-up" data-aos-delay="150" className='text-center'>
-                        <h5 className="uppercase text-xl font-semibold text-[#F55F1D] mb-4">SUBSCRIBE</h5>
-                        <p className="text-4xl font-semibold mb-2">
-                            Subscribe to get the latest<br />
-                            news about us
-                        </p>
-                        <span className='text-[#8B8B8B]'>
-                            Please drop your email below to get daily update about what we do
-                        </span>
-                    </div>
-                    <div data-aos="fade-up" data-aos-delay="300" data-aos-offset="-25" className="relative w-full max-w-xl mx-auto mt-10">
-                        <input
-                            type="email"
-                            placeholder="Enter Your Email Adress"
-                            className="w-full px-5 py-4 pr-36 border border-black-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-black"
-                        />
-                        <button
-                            type="submit"
-                            className="absolute right-1 top-1 bottom-1 px-6 bg-orange-500 hover:bg-orange-600 text-white rounded-xl transition duration-300 cursor-pointer"
-                        >
-                            Subscribe
-                        </button>
-                    </div>
-                </div>
-            </Section>
-        
-            {/* <Section id="get-started" className="py-20">
-                <div className="container mx-auto px-6">
-                    <div data-aos="fade-up" className="text-center mb-12">
-                        <h3 className="text-3xl font-bold text-gray-800 mb-2">Get In Touch</h3>
-                        <p className="text-gray-700">Ready to start your project? Contact us today and let's discuss how we can help you achieve your digital goals.</p>
-                    </div>
-                    <div class="flex flex-col md:flex-row gap-12">
-                        <div data-aos="fade-up" data-aos-delay="150" class="w-full md:w-1/2 bg-gray-50 p-8 rounded-lg shadow-md animate-on-scroll visible">
-                            <h3 class="text-2xl font-semibold mb-6">Send Us a Message</h3>
-                            <form id="contact-form">
-                                <div class="mb-6">
-                                    <label for="name" class="block text-gray-700 mb-2">Full Name</label>
-                                    <input type="text" id="name" class="bg-white w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" placeholder="John Smith"/>
-                                </div>
-                                <div class="mb-6">
-                                    <label for="email" class="block text-gray-700 mb-2">Email Address</label>
-                                    <input type="email" id="email" class="bg-white w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" placeholder="john@example.com"/>
-                                </div>
-                                <div class="mb-6">
-                                    <label for="project-type" class="block text-gray-700 mb-2">Project Type</label>
-                                    <div class="relative">
-                                        <div class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary flex justify-between items-center cursor-pointer" id="project-type-display">
-                                            <span>Select Project Type</span>
-                                            <div class="w-5 h-5 flex items-center justify-center">
-                                                <i class="ri-arrow-down-s-line"></i>
-                                            </div>
-                                        </div>
-                                        <div class="absolute left-0 right-0 top-full mt-1 bg-white border border-gray-300 rounded shadow-md z-10 hidden" id="project-type-dropdown">
-                                            <div class="py-2 px-4 hover:bg-gray-100 cursor-pointer" data-value="website">Website Development</div>
-                                            <div class="py-2 px-4 hover:bg-gray-100 cursor-pointer" data-value="system">System Development</div>
-                                            <div class="py-2 px-4 hover:bg-gray-100 cursor-pointer" data-value="mobile">Mobile App Development</div>
-                                            <div class="py-2 px-4 hover:bg-gray-100 cursor-pointer" data-value="other">Other</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mb-6">
-                                    <label for="message" class="block text-gray-700 mb-2">Message</label>
-                                    <textarea id="message" rows="5" class="bg-white w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" placeholder="Tell us about your project..."></textarea>
-                                </div>
-                                <button type="submit" class="w-full bg-orange-500 text-white px-6 py-3 rounded-lg font-medium hover:bg-opacity-90 transition-colors whitespace-nowrap">Submit Message</button>
-                            </form>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="300" class="w-full md:w-1/2 animate-on-scroll visible" data-delay="200">
-                            <div class="bg-gray-50 p-8 rounded-lg shadow-md mb-8">
-                                <h3 class="text-2xl font-semibold mb-6">Contact Information</h3>
-                                <div class="flex items-start mb-6">
-                                    <div class="w-10 h-10 bg-orange-500/10 rounded-full flex items-center justify-center mr-4">
-                                        <i class="ri-mail-line text-primary"></i>
-                                    </div>
-                                    <div>
-                                        <h4 class="font-medium text-gray-900">Email Us</h4>
-                                        <a href="mailto:info@weejee.com" class="text-gray-600 hover:text-primary">info@weejee.com</a>
-                                    </div>
-                                </div>
-                                <div class="flex items-start mb-6">
-                                    <div class="w-10 h-10 bg-orange-500/10 rounded-full flex items-center justify-center mr-4">
-                                        <i class="ri-phone-line text-primary"></i>
-                                    </div>
-                                    <div>
-                                        <h4 class="font-medium text-gray-900">Call Us</h4>
-                                        <a href="tel:+1234567890" class="text-gray-600 hover:text-primary">+1 (234) 567-890</a>
-                                    </div>
-                                </div>
-                                <div class="flex items-start">
-                                    <div class="w-10 h-10 bg-orange-500/10 rounded-full flex items-center justify-center mr-4">
-                                        <i class="ri-map-pin-line text-primary"></i>
-                                    </div>
-                                    <div>
-                                        <h4 class="font-medium text-gray-900">Visit Us</h4>
-                                        <p class="text-gray-600">123 Tech Avenue, San Francisco, CA 94107</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bg-gray-50 p-8 rounded-lg shadow-md">
-                                <h3 class="text-2xl font-semibold mb-6">Follow Us</h3>
-                                <div class="flex space-x-4">
-                                    <a href="#" class="w-10 h-10 bg-orange-500/10 rounded-full flex items-center justify-center hover:bg-orange-500 hover:text-white transition-colors">
-                                        <i class="ri-facebook-fill"></i>
-                                    </a>
-                                    <a href="#" class="w-10 h-10 bg-orange-500/10 rounded-full flex items-center justify-center hover:bg-orange-500 hover:text-white transition-colors">
-                                        <i class="ri-twitter-fill"></i>
-                                    </a>
-                                    <a href="#" class="w-10 h-10 bg-orange-500/10 rounded-full flex items-center justify-center hover:bg-orange-500 hover:text-white transition-colors">
-                                        <i class="ri-instagram-fill"></i>
-                                    </a>
-                                    <a href="#" class="w-10 h-10 bg-orange-500/10 rounded-full flex items-center justify-center hover:bg-orange-500 hover:text-white transition-colors">
-                                        <i class="ri-linkedin-fill"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </Section> */}
-            
         </main>
     );
   }
