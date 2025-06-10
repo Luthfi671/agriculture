@@ -84,19 +84,19 @@ export default function Home() {
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"></link>
             <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet" />
 
-            <Section id="beranda" className="mx-20 mt-22 p-2 mb-45">
+            <Section id="beranda" className="mx-0 md:mx-20 mt-30 md:mt-22 p-2 mb-0 md:mb-45">
                 <div className="grid lg:grid-cols-2 items-center gap-0">
                     {/* Text Content */}
-                    <div className="space-y-4 px-5 ml-10">
-                        <h1 className="text-6xl md:text-6xl font-bold leading-tight text-[#34495E] max-w-300 font-serif">
+                    <div className="space-y-4 px-5 ml-0 md:ml-10">
+                        <h1 className="text-3xl md:text-5xl font-bold leading-tight text-[#34495E] max-w-300 font-serif text-center md:text-left">
                             <div data-aos="fade-up" data-aos-delay="100">
                                 Sistem Pertanian untuk Esok Hari yang Lebih Baik
                             </div>
                         </h1>
-                        <p data-aos="fade-up" data-aos-delay="250" className="text-[#012F1F] text-lg mb-6">
+                        <p data-aos="fade-up" data-aos-delay="250" className="text-[#012F1F] text-center md:text-left text-lg mb-6">
                             Temukan perpaduan sempurna antara kearifan tradisional dan inovasi modern di bidang pertanian. Kami memupuk keunggulan dengan setiap benih yang ditanam.
                         </p>
-                        <div data-aos="fade-up" data-aos-delay="500" className="flex gap-4 flex-wrap">
+                        <div data-aos="fade-up" data-aos-delay="500" className="flex gap-4 flex-wrap justify-center md:justify-normal">
                             <button className="flex bg-[#012F1F] text-white text-xl px-6 py-2 rounded-lg font-semibold hover:bg-green-600 transition cursor-pointer">
                                 Layanan Kami
                             </button>
@@ -106,8 +106,8 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div data-aos="fade-left" className="relative top-0 right-0">
-                        <img src="/assets/logo-mata.png" alt="Hero Illustration" className=" max-w-300 lg:max-w-300 mx-auto"/>
+                    <div data-aos="fade-left" className="relative top-0 right-0 mt-10 md:mt-0">
+                        <img src="/assets/logo-mata.png" alt="Hero Illustration" className="opacity-0 md:opacity-100 max-w-10 md:max-w-300 mx-auto"/>
                     </div>
                 </div>
 
@@ -130,12 +130,12 @@ export default function Home() {
                 <h1 className="text-6xl text-[#34495E] font-bold my-6 max-w-250 mx-auto mb-15 font-serif">
                     Aplikasi Kami
                 </h1>
-                <p className="text-[#012F1F] text-xl font-semibold mb-50 max-w-250 text-center">
+                <p className="text-[#012F1F] px-20 text-xl font-semibold mb-20 md:mb-50 max-w-250 text-center">
                     Berakar pada tradisi, tumbuh dengan inovasi. Perjalanan kami dimulai dengan keyakinan sederhana dalam praktik pertanian berkelanjutan.
                 </p>
-                <div className="bg-[#012F1F] text-white w-full px-20 grid lg:grid-cols-2 items-center gap-12">
+                <div className="bg-[#012F1F] text-white w-full px-10 md:px-20 grid lg:grid-cols-2 items-center gap-12">
                     {/* Text Content */}
-                    <div className="space-y-4 px-5 ml-10 py-10">
+                    <div className="space-y-4 px-5 ml-0 md:ml-10 py-10 mr-30">
                         <h4 className="text-xl md:text-3xl font-semibold leading-tight max-w-200">
                             Memperkenalkan <b>KELOR APP</b>
                         </h4>
@@ -144,20 +144,20 @@ export default function Home() {
                         </p>
                     </div>
 
-                    <div className="absolute top-346 right-37">
+                    <div className="absolute opacity-0 md:opacity-100 top-346 right-37">
                         <img src="/assets/laptop.png" alt="Hero Illustration" className="w-full max-w-sm lg:max-w-140 mx-auto"/>
                     </div>
-                    <div className="absolute top-380 right-33">
-                        <img src="/assets/handphone.png" alt="Hero Illustration" className="w-full max-w-40 lg:max-w-70 mx-auto"/>
+                    <div className="absolute top-334 md:top-380 right-2 md:right-33">
+                        <img src="/assets/handphone.png" alt="Hero Illustration" className="w-full max-w-65 md:max-w-40 lg:max-w-70 mx-auto"/>
                     </div>
                 </div>
 
             </Section>
             
-            <Section id="dashboard" className="bg-white py-10 pt-20 pb-20">
+            <Section id="dashboard" className="bg-white py-10 pt-0 md:pt-20 pb-20">
                 <div className="container mx-auto px-15">
                     <div className="mb-2 text-center">
-                        <h1 className="text-3xl font-bold my-6 mb-2 max-w-250 mx-auto">
+                        <h1 className="text-3xl font-bold my-6 mb-10 md:mb-2 max-w-250 mx-auto">
                             Ucapkan Selamat Tinggal pada Pertanian Manual dan Gunakan AgriERP untuk Manajemen Pertanian Anda
                         </h1>
                     </div>
@@ -171,13 +171,13 @@ export default function Home() {
                         <h1 className="text-5xl font-bold my-6 mb-5 max-w-250 mx-auto text-[#34495E] font-serif">
                             Layanan Kami
                         </h1>
-                        <div className="h-1 mx-130 bg-[#34495E] mb-10"></div>
-                        <p className='text-2xl px-50 text-[#012F1F]'>
+                        <div className="h-1 mx-25 md:mx-130 bg-[#34495E] mb-10"></div>
+                        <p className='text-lg md:text-2xl px-10 md:px-50 text-[#012F1F]'>
                             Solusi pertanian komprehensif yang disesuaikan dengan kebutuhan Anda, memadukan tradisi dengan teknologi mutakhir.
                         </p>
                     </div>
-                    <div className='w-full mt-30 mx-0 px-0 grid bg-black/50 text-white h-120 grid-cols-1 sm:grid-cols-2 md:grid-cols-5'>
-                        <div className="relative overflow-hidden group flex flex-col justify-end p-4 h-full">
+                    <div className='w-full mt-30 mx-0 px-0 grid bg-black/50 text-white h-200 md:h-120 grid-cols-1 sm:grid-cols-2 md:grid-cols-5'>
+                        <div className="relative overflow-hidden group flex flex-col justify-normal md:justify-end p-4 h-full">
                             <div className="absolute inset-0 bg-[url('/assets/category/row_crop.png')] bg-cover bg-center transition-transform duration-500 ease-in-out transform group-hover:scale-110 z-0"></div>
                             <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition duration-500 z-0"></div>
                             <div className="relative z-10 text-white">
@@ -187,7 +187,7 @@ export default function Home() {
                                 </p>
                             </div>
                         </div>
-                        <div className="relative overflow-hidden group flex flex-col justify-end p-4 h-full">
+                        <div className="relative overflow-hidden group flex flex-col justify-normal md:justify-end p-4 h-full">
                             <div className="absolute inset-0 bg-[url('/assets/category/almond.png')] bg-cover bg-center transition-transform duration-500 ease-in-out transform group-hover:scale-110 z-0"></div>
                             <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition duration-500 z-0"></div>
                             <div className="relative z-10 text-white">
@@ -197,7 +197,7 @@ export default function Home() {
                                 </p>
                             </div>
                         </div>
-                        <div className="relative overflow-hidden group flex flex-col justify-end p-4 h-full">
+                        <div className="relative overflow-hidden group flex flex-col justify-normal md:justify-end p-4 h-full">
                             <div className="absolute inset-0 bg-[url('/assets/category/vegetable_farm.png')] bg-cover bg-center transition-transform duration-500 ease-in-out transform group-hover:scale-110 z-0"></div>
                             <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition duration-500 z-0"></div>
                             <div className="relative z-10 text-white">
@@ -207,7 +207,7 @@ export default function Home() {
                                 </p>
                             </div>
                         </div>
-                        <div className="relative overflow-hidden group flex flex-col justify-end p-4 h-full">
+                        <div className="relative overflow-hidden group flex flex-col justify-normal md:justify-end p-4 h-full">
                             <div className="absolute inset-0 bg-[url('/assets/category/indoor_vertical_farm.png')] bg-cover bg-center transition-transform duration-500 ease-in-out transform group-hover:scale-110 z-0"></div>
                             <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition duration-500 z-0"></div>
                             <div className="relative z-10 text-white">
@@ -217,7 +217,7 @@ export default function Home() {
                                 </p>
                             </div>
                         </div>
-                        <div className="relative overflow-hidden group flex flex-col justify-end p-4 h-full">
+                        <div className="relative overflow-hidden group flex flex-col justify-normal md:justify-end p-4 h-full">
                             <div className="absolute inset-0 bg-[url('/assets/category/nut_cirtus.png')] bg-cover bg-center transition-transform duration-500 ease-in-out transform group-hover:scale-110 z-0"></div>
                             <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition duration-500 z-0"></div>
                             <div className="relative z-10 text-white">

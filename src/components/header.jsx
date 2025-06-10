@@ -14,9 +14,9 @@ const Header = () => {
     <header className="fixed top-0 left-0 w-full bg-[#F8F5E6] text-black z-50 shadow">
       <nav className="container mx-auto flex justify-between items-center p-3">
         <button onClick={() => scrollToSection('home')} className="cursor-pointer">
-          <img src="/assets/logo.png" alt="" className="max-w-35 ml-10" />
+          <img src="/assets/logo.png" alt="" className="max-w-35 sm:max-w-5 md:max-w-35 ml-0 sm:ml-0 md:ml-10 " />
         </button>
-        <ul className="flex space-x-15 font-semibold text-xl items-center justify-center mr-20">
+        <ul className="flex space-x-15 md:space-x-15 sm:space-x-5 font-semibold md:text-xl sm:text-sm items-center justify-center mr-6 md:mr-20 sm:mr-6">
           {/* SERVICES with DROPDOWN */}
           <li><button onClick={() => scrollToSection('beranda')} className="hover:text-[#3cb17b] cursor-pointer">Beranda</button></li>
           <li><button onClick={() => scrollToSection('tentang')} className="hover:text-[#3cb17b] cursor-pointer">Tentang</button></li>
