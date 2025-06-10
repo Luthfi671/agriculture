@@ -84,90 +84,99 @@ export default function Home() {
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"></link>
             <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet" />
 
-            <Section id="beranda" className="bg-[#012F1F] mx-20 rounded-2xl mt-20 p-2">
-                <div className="grid lg:grid-cols-2 items-center gap-12">
+            <Section id="beranda" className="mx-20 mt-22 p-2 mb-45">
+                <div className="grid lg:grid-cols-2 items-center gap-0">
                     {/* Text Content */}
                     <div className="space-y-4 px-5 ml-10">
-                        <h1 className="text-4xl md:text-5xl font-bold leading-tight text-[#7BD73E] max-w-90">
-                        <div data-aos="fade-up" data-aos-delay="100">Truly circular</div>
-                        <div data-aos="fade-up" data-aos-delay="200">reusing</div>
-                        <div data-aos="fade-up" data-aos-delay="300">nutrients from</div>
-                        <div data-aos="fade-up" data-aos-delay="400">aquaculture</div>
+                        <h1 className="text-6xl md:text-6xl font-bold leading-tight text-[#34495E] max-w-300 font-serif">
+                            <div data-aos="fade-up" data-aos-delay="100">
+                                Sistem Pertanian untuk Esok Hari yang Lebih Baik
+                            </div>
                         </h1>
+                        <p data-aos="fade-up" data-aos-delay="250" className="text-[#012F1F] text-lg mb-6">
+                            Temukan perpaduan sempurna antara kearifan tradisional dan inovasi modern di bidang pertanian. Kami memupuk keunggulan dengan setiap benih yang ditanam.
+                        </p>
                         <div data-aos="fade-up" data-aos-delay="500" className="flex gap-4 flex-wrap">
-                            <button className="flex bg-[#7BD73E] text-white text-xl px-6 py-2 rounded-xl font-semibold hover:bg-green-600 transition cursor-pointer">
-                            Preview
+                            <button className="flex bg-[#012F1F] text-white text-xl px-6 py-2 rounded-lg font-semibold hover:bg-green-600 transition cursor-pointer">
+                                Layanan Kami
+                            </button>
+                            <button className="flex border-2 border-[#012F1F] text-[#012F1F] text-xl px-6 py-2 rounded-lg font-semibold hover:bg-green-600 transition cursor-pointer">
+                                Hubungi Kami
                             </button>
                         </div>
                     </div>
 
-                    <div data-aos="fade-left" className="relative top-0 right-15">
-                        <img src="/assets/img-heading.png" alt="Hero Illustration" className="w-full max-w-md lg:max-w-full mx-auto"/>
+                    <div data-aos="fade-left" className="relative top-0 right-0">
+                        <img src="/assets/logo-mata.png" alt="Hero Illustration" className=" max-w-300 lg:max-w-300 mx-auto"/>
                     </div>
                 </div>
 
             </Section>
 
             <Section id="bottomheader" className="py-10">
-                <div className="container mx-auto px-15">
+                <div className="container mx-auto px-20">
                     <div data-aos="fade-up" className="mb-12">
-                        <h1 className="text-3xl font-bold my-6 mb-17 text-center">
+                        <h1 className="text-3xl font-semibold my-6 mb-17 text-center">
                         Perangkat lunak yang dirancang untuk membantu petani dan pelaku industri pertanian dalam mengelola kegiatan pertanian secara lebih efisien
                         </h1>
-                        <div className='flex items-center justify-center w-15 h-15 border-2 rounded-full mx-auto bg-[#7BD73E] hover:bg-[#012F1F] hover:text-white hover:border-white cursor-pointer animate-bounce transition-all duration-300'>
+                        <div className='flex items-center justify-center w-15 h-15 border-2 rounded-full mx-auto hover:bg-[#012F1F] hover:text-white hover:border-white cursor-pointer animate-bounce transition-all duration-300'>
                             <i class="ri-arrow-down-long-line text-3xl"></i>
                         </div>
                     </div>
                 </div>
             </Section>
             
-            <Section id="introduce" className="bg-[#7BD73E] mx-20 rounded-2xl mt-20 p-2">
-                <div className="grid lg:grid-cols-2 items-center gap-12">
+            <Section id="introduce" className="pt-20 pb-25 bg-white">
+                <h1 className="text-6xl text-[#34495E] font-bold my-6 max-w-250 mx-auto mb-15 font-serif">
+                    Aplikasi Kami
+                </h1>
+                <p className="text-[#012F1F] text-xl font-semibold mb-50 max-w-250 text-center">
+                    Berakar pada tradisi, tumbuh dengan inovasi. Perjalanan kami dimulai dengan keyakinan sederhana dalam praktik pertanian berkelanjutan.
+                </p>
+                <div className="bg-[#012F1F] text-white w-full px-20 grid lg:grid-cols-2 items-center gap-12">
                     {/* Text Content */}
-                    <div className="space-y-4 px-5 ml-10 py-7">
-                        <h4 className="text-2xl md:text-4xl font-semibold leading-tight max-w-200">
-                            INTRODUCING <b>KELOR APP</b>
+                    <div className="space-y-4 px-5 ml-10 py-10">
+                        <h4 className="text-xl md:text-3xl font-semibold leading-tight max-w-200">
+                            Memperkenalkan <b>KELOR APP</b>
                         </h4>
                         <p className='text-lg'>
                             Kendalikan operasi pertanian Anda dengan aplikasi yang dirancang untuk petani yang aktif. Tanpa basa-basi, hanya perangkat yang Anda butuhkan untuk berhasil.
                         </p>
                     </div>
 
-                    <div className="absolute top-187 right-40">
+                    <div className="absolute top-346 right-37">
                         <img src="/assets/laptop.png" alt="Hero Illustration" className="w-full max-w-sm lg:max-w-140 mx-auto"/>
                     </div>
-                    <div className="absolute top-225 right-40">
+                    <div className="absolute top-380 right-33">
                         <img src="/assets/handphone.png" alt="Hero Illustration" className="w-full max-w-40 lg:max-w-70 mx-auto"/>
                     </div>
                 </div>
 
             </Section>
             
-            <Section id="dashboard" className="py-10 mt-20">
+            <Section id="dashboard" className="bg-white py-10 pt-20 pb-20">
                 <div className="container mx-auto px-15">
                     <div className="mb-2 text-center">
                         <h1 className="text-3xl font-bold my-6 mb-2 max-w-250 mx-auto">
                             Ucapkan Selamat Tinggal pada Pertanian Manual dan Gunakan AgriERP untuk Manajemen Pertanian Anda
                         </h1>
-                        <p className='text-2xl'>
-                            Membudidayakan pertanian yang berhasil untuk masa depan
-                        </p>
                     </div>
                     <img src="/assets/ss_dashboard.png" alt="Hero Illustration" className="w-full max-w-xl lg:max-w-full mx-auto"/>
                 </div>
             </Section>
             
-            <Section id="petani" className="py-10 mx-0 mt-20">
+            <Section id="petani" className="py-10 mx-0 mt-10">
                 <div className="w-full mx-0">
                     <div className="mb-4 text-center px-15">
-                        <h1 className="text-3xl font-bold my-6 mb-2 max-w-250 mx-auto">
-                            Memberdayakan semua jenis petani
+                        <h1 className="text-5xl font-bold my-6 mb-5 max-w-250 mx-auto text-[#34495E] font-serif">
+                            Layanan Kami
                         </h1>
-                        <p className='text-2xl'>
-                            Satu Platform yang Kuat Untuk Semua Kebutuhan Pertanian
+                        <div className="h-1 mx-130 bg-[#34495E] mb-10"></div>
+                        <p className='text-2xl px-50 text-[#012F1F]'>
+                            Solusi pertanian komprehensif yang disesuaikan dengan kebutuhan Anda, memadukan tradisi dengan teknologi mutakhir.
                         </p>
                     </div>
-                    <div className='w-full mx-0 px-0 grid bg-black/50 text-white h-120 grid-cols-1 sm:grid-cols-2 md:grid-cols-5'>
+                    <div className='w-full mt-30 mx-0 px-0 grid bg-black/50 text-white h-120 grid-cols-1 sm:grid-cols-2 md:grid-cols-5'>
                         <div className="relative overflow-hidden group flex flex-col justify-end p-4 h-full">
                             <div className="absolute inset-0 bg-[url('/assets/category/row_crop.png')] bg-cover bg-center transition-transform duration-500 ease-in-out transform group-hover:scale-110 z-0"></div>
                             <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition duration-500 z-0"></div>
@@ -226,7 +235,7 @@ export default function Home() {
                 <h1 className="text-3xl font-bold my-6 mb-2 max-w-250 mx-auto">
                     Mitra kami
                 </h1>
-                <div className="bg-black/50 w-full mt-9 z-10 slider-container"> 
+                <div className="w-full mt-9 z-10 slider-container"> 
                     <div className="slider-track py-2">
                         <img src="/assets/evos+-logo.png" alt="" className="max-w-26"/>
                         <img src="/assets/arhan-logo.png" alt="" className="max-w-50"/>
@@ -243,7 +252,7 @@ export default function Home() {
                 </div>
             </Section>
 
-            <Section id="testimoni" className="px-4 md:px-15">
+            <Section id="testimoni" className="px-4 md:px-15 pb-40">
                 <div data-aos="fade-up" data-aos-offset="200" className="flex justify-between items-center w-full p-12 pb-4">
                     <div>
                         <h5 className="uppercase text-3xl font-bold mb-4">TESTIMONIALS</h5>
@@ -257,7 +266,7 @@ export default function Home() {
                         </button>
                         <button
                             onClick={handleNext}
-                            className="w-14 h-14 bg-[#7BD73E] rounded-full flex items-center justify-center text-xl text-white cursor-pointer"
+                            className="w-14 h-14 bg-[#3cb17b] rounded-full flex items-center justify-center text-xl text-white cursor-pointer"
                         >
                             <i className="ri-arrow-right-line"></i>
                         </button>

@@ -1,30 +1,30 @@
 export default function Footer() {
   return (
-    <footer className="bg-[#18332f] text-white pt-16 pb-8">
+    <footer className="bg-[#1d2a36] text-white pt-16 pb-8">
       <div className="container mx-auto px-15">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-12">
           <div>
-            <h1 className="text-[#7BD73E] text-3xl font-bold mb-2">Kelor App</h1>
+            <img src="/assets/logo.png" alt="" className="invert brightness-0 max-w-50 mb-6 left-2"/>
             <p className="mb-6">
             Revolutionize your business through Our Custom Software Development Services-bespoke solutions designed to enchance efficiency and faster growth!
             </p>
             <div className="text-white flex space-x-4">
-              <a href="#" className="bg-[#7BD73E] rounded-full hover:text-black transition-colors">
+              <a href="#" className="bg-[#3cb17b] rounded-full hover:text-black transition-colors">
                 <div className="w-8 h-8 flex items-center justify-center">
                   <i className="ri-facebook-fill"></i>
                 </div>
               </a>
-              <a href="#" className="bg-[#7BD73E] rounded-full hover:text-black transition-colors">
+              <a href="#" className="bg-[#3cb17b] rounded-full hover:text-black transition-colors">
                 <div className="w-8 h-8 flex items-center justify-center">
                   <i className="ri-twitter-fill"></i>
                 </div>
               </a>
-              <a href="#" className="bg-[#7BD73E] rounded-full hover:text-black transition-colors">
+              <a href="#" className="bg-[#3cb17b] rounded-full hover:text-black transition-colors">
                 <div className="w-8 h-8 flex items-center justify-center">
                   <i className="ri-instagram-fill"></i>
                 </div>
               </a>
-              <a href="#" className="bg-[#7BD73E] rounded-full hover:text-black transition-colors">
+              <a href="#" className="bg-[#3cb17b] rounded-full hover:text-black transition-colors">
                 <div className="w-8 h-8 flex items-center justify-center">
                   <i className="ri-linkedin-fill"></i>
                 </div>

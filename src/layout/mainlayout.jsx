@@ -28,7 +28,7 @@ export default function MainLayout() {
 
 
     return (
-      <div className="min-h-screen flex flex-col">
+      <div className="min-h-screen bg-[#F8F5E6] flex flex-col">
         <Header />
         <main className="flex-grow">
           <Outlet />
