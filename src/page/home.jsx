@@ -109,7 +109,7 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div data-aos="fade-left" className="relative top-0 right-0 mt-10 md:mt-0">
+                    <div data-aos="fade-left" className="relative top-0 right-0 mt-10 md:mt-20 lg:mt-0">
                         <img src="/assets/logo-mata.png" alt="Hero Illustration" className="opacity-0 md:opacity-100 max-w-10 md:max-w-300 mx-auto"/>
                     </div>
                 </div>
@@ -136,7 +136,7 @@ export default function Home() {
                 <p data-aos="fade-up" data-aos-delay="200" className="text-[#012F1F] px-5 md:px-50 text-xl md:text-2xl font-semibold mb-20 md:mb-50 text-center">
                     Berakar pada tradisi, tumbuh dengan inovasi. Perjalanan kami dimulai dengan keyakinan sederhana dalam praktik pertanian berkelanjutan.
                 </p>
-                <div className="bg-[#012F1F] text-white flex flex-col md:flex-row w-full px-10 md:px-20 items-center gap-12">
+                <div className="bg-[#012F1F] text-white flex flex-col md:flex-row w-full px-10 lg:pb-10 md:px-20 items-center gap-12">
                     {/* Text Content */}
                     <div className="space-y-4 pb-0 md:pb-4 text-center md:text-left px-5 ml-0 md:ml-10 py-10 mr-0 md:max-w-230">
                         <h4 className="text-xl md:text-4xl font-semibold leading-tight">
@@ -150,9 +150,9 @@ export default function Home() {
                         </button>
                     </div>
 
-                    <div className="relative w-full">
-                        <img src="/assets/laptop.png" alt="Hero Illustration" className="md:absolute md:bottom-[-240px] md:right-[40px] w-full mx-auto"/>
-                        <img src="/assets/handphone.png" alt="Hero Illustration" className="pr-10 md:pr-0 md:absolute md:bottom-[-150px] md:right-[20px] w-full max-w-200 md:max-w-60 mx-auto"/>
+                    <div className="relative w-full md:bottom-46 lg:bottom-55">
+                        <img src="/assets/laptop.png" alt="Hero Illustration" className="md:absolute md:right-[40px] w-full mx-auto"/>
+                        <img src="/assets/handphone.png" alt="Hero Illustration" className="pr-10 md:pr-0 md:absolute md:top-18 md:right-[20px] max-w-200 md:max-w-40 lg:max-w-70 mx-auto"/>
                     </div>
                 </div>
 
