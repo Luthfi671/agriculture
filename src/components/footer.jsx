@@ -48,6 +48,10 @@ export default function Footer() {
               Subang <br />
               Indonesia
             </p>
+            <div className="max-w-40">
+              <img src="/assets/playstore.png" alt="" className="cursor-pointer mb-2"/>
+              <img src="/assets/appstore.png" alt="" className="cursor-pointer"/>
+            </div>
           </div>
         </div>
         <div className="font-bold border-gray-800 flex flex-col md:flex-row justify-between items-center">
