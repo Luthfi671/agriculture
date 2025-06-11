@@ -152,7 +152,7 @@ export default function Home() {
 
                     <div className="relative w-full md:bottom-46 lg:bottom-55">
                         <img src="/assets/laptop.png" alt="Hero Illustration" className="md:absolute md:right-[40px] w-full mx-auto"/>
-                        <img src="/assets/handphone.png" alt="Hero Illustration" className="pr-10 md:pr-0 md:absolute md:top-18 md:right-[20px] max-w-200 md:max-w-40 lg:max-w-70 mx-auto"/>
+                        <img src="/assets/handphone.png" alt="Hero Illustration" className="md:pr-0 md:absolute md:top-18 md:right-[20px] relative right-5 max-w-50 md:max-w-40 lg:max-w-70 mx-auto"/>
                     </div>
                 </div>
 
