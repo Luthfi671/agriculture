@@ -30,7 +30,7 @@ export default function MainLayout() {
     return (
       <div className="min-h-screen bg-[#F8F5E6] flex flex-col">
         <Header />
-        <main className="flex-grow">
+        <main className="flex-grow overflow-x-hidden">
           <Outlet />
         </main>
         <Footer />

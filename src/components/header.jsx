@@ -19,7 +19,7 @@ const Header = () => {
         </button>
 
         <div className="md:hidden">
-          <button onClick={() => setMenuOpen(!menuOpen)} className="text-black">
+          <button onClick={() => setMenuOpen(!menuOpen)} className="text-black text-xl">
             <i className={menuOpen ? "ri-close-line" : "ri-menu-line"}></i>
           </button>
         </div>
@@ -33,7 +33,7 @@ const Header = () => {
         </ul>
 
         {menuOpen && (
-          <div className="md:hidden bg-[#F8F5E6] px-6 py-4 shadow">
+          <div className="md:hidden absolute top-full left-0 w-full bg-[#F8F5E6] px-6 py-4 shadow z-40 transition-all duration-300">
             <ul className="flex flex-col space-y-4 font-semibold text-base">
               {/* SERVICES with DROPDOWN */}
               <li><button onClick={() => scrollToSection('beranda')} className="hover:text-[#3cb17b] cursor-pointer">Beranda</button></li>
