@@ -116,8 +116,8 @@ export default function Home() {
             <Section id="bottomheader" className="py-10">
                 <div className="container mx-auto px-20">
                     <div data-aos="fade-up" className="mb-12">
-                        <h1 className="text-3xl font-semibold my-6 mb-17 text-center">
-                        Perangkat lunak yang dirancang untuk membantu petani dan pelaku industri pertanian dalam mengelola kegiatan pertanian secara lebih efisien
+                        <h1 className="text-lg md:text-3xl font-semibold my-6 mb-17 text-center">
+                            Perangkat lunak yang dirancang untuk membantu petani dan pelaku industri pertanian dalam mengelola kegiatan pertanian secara lebih efisien
                         </h1>
                         <div className='flex items-center justify-center w-15 h-15 border-2 rounded-full mx-auto hover:bg-[#012F1F] hover:text-white hover:border-white cursor-pointer animate-bounce transition-all duration-300'>
                             <i class="ri-arrow-down-long-line text-3xl"></i>
@@ -127,7 +127,7 @@ export default function Home() {
             </Section>
             
             <Section id="introduce" className="pt-20 pb-25 bg-white">
-                <h1 className="text-6xl text-[#34495E] font-bold my-6 max-w-250 mx-auto mb-15 font-serif">
+                <h1 className="text-3xl md:text-6xl text-[#34495E] font-bold my-6 max-w-250 mx-auto mb-15 font-serif">
                     Aplikasi Kami
                 </h1>
                 <p className="text-[#012F1F] px-20 text-xl font-semibold mb-20 md:mb-50 max-w-250 text-center">
@@ -253,20 +253,20 @@ export default function Home() {
             </Section>
 
             <Section id="testimoni" className="px-4 md:px-15 pb-40">
-                <div data-aos="fade-up" data-aos-offset="200" className="flex justify-between items-center w-full p-12 pb-4">
+                <div data-aos="fade-up" data-aos-offset="200" className="flex flex-col md:flex-row md:justify-between items-center w-full p-12 pb-4">
                     <div>
                         <h5 className="uppercase text-3xl font-bold mb-4">TESTIMONIALS</h5>
                     </div>
-                    <div data-aos="fade-up" data-aos-offset="-100" className="flex items-center gap-3 ml-4 ">
+                    <div data-aos="fade-up" data-aos-offset="-100" className="flex items-center gap-3 ml-0 md:ml-4 ">
                         <button
                             onClick={handlePrev}
-                            className="w-14 h-14 border border-black rounded-full flex items-center justify-center text-xl cursor-pointer"
+                            className="w-8 h-8 md:w-14 md:h-14 border border-black rounded-full flex items-center justify-center text-md md:text-xl cursor-pointer"
                         >
                             <i className="ri-arrow-left-line"></i>
                         </button>
                         <button
                             onClick={handleNext}
-                            className="w-14 h-14 bg-[#3cb17b] rounded-full flex items-center justify-center text-xl text-white cursor-pointer"
+                            className="w-8 h-8 md:w-14 md:h-14 bg-[#3cb17b] rounded-full flex items-center justify-center text-md md:text-xl text-white cursor-pointer"
                         >
                             <i className="ri-arrow-right-line"></i>
                         </button>
