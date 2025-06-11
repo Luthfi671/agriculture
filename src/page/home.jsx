@@ -84,7 +84,7 @@ export default function Home() {
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"></link>
             <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet" />
 
-            <Section id="beranda" className="mx-0 md:mx-20 mt-30 md:mt-40 p-2 mb-0 md:mb-35">
+            <Section id="beranda" className="mx-0 md:mx-20 mt-30 md:mt-40 p-2 mb-0 md:mb-10 lg:mb-35">
                 <div className="grid lg:grid-cols-2 items-center gap-0">
                     {/* Text Content */}
                     <div className="space-y-4 px-5 ml-0 md:ml-10">
