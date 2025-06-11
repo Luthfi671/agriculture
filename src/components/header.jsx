@@ -15,7 +15,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 w-full bg-[#F8F5E6] text-black z-50 shadow">
       <nav className="container mx-auto flex justify-between items-center p-3">
         <button onClick={() => scrollToSection('home')} className="cursor-pointer">
-          <img src="/assets/logo.png" alt="" className="max-w-25 md:max-w-35 ml-0 md:ml-10" />
+          <img src="/assets/logo.png" alt="" className="max-w-25 md:max-w-45 ml-0 md:ml-23" />
         </button>
 
         <div className="md:hidden">
@@ -24,7 +24,7 @@ const Header = () => {
           </button>
         </div>
 
-        <ul className="hidden md:flex space-x-10 font-semibold text-xl items-center justify-center mr-20">
+        <ul className="hidden md:flex space-x-15 font-semibold text-xl items-center justify-center mr-20">
           {/* SERVICES with DROPDOWN */}
           <li><button onClick={() => scrollToSection('beranda')} className="hover:text-[#3cb17b] cursor-pointer">Beranda</button></li>
           <li><button onClick={() => scrollToSection('tentang')} className="hover:text-[#3cb17b] cursor-pointer">Tentang</button></li>
