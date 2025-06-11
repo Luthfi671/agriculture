@@ -114,13 +114,13 @@ export default function Home() {
             </Section>
 
             <Section id="bottomheader" className="py-10">
-                <div className="container mx-auto px-20">
+                <div className="container mx-auto px-5 md:px-20">
                     <div data-aos="fade-up" className="mb-12">
                         <h1 className="text-lg md:text-3xl font-semibold my-6 mb-17 text-center">
                             Perangkat lunak yang dirancang untuk membantu petani dan pelaku industri pertanian dalam mengelola kegiatan pertanian secara lebih efisien
                         </h1>
-                        <div className='flex items-center justify-center w-15 h-15 border-2 rounded-full mx-auto hover:bg-[#012F1F] hover:text-white hover:border-white cursor-pointer animate-bounce transition-all duration-300'>
-                            <i class="ri-arrow-down-long-line text-3xl"></i>
+                        <div className='flex items-center justify-center w-10 h-10 md:w-15 md:h-15 border-2 rounded-full mx-auto hover:bg-[#012F1F] hover:text-white hover:border-white cursor-pointer animate-bounce transition-all duration-300'>
+                            <i class="ri-arrow-down-long-line text-xl md:text-3xl"></i>
                         </div>
                     </div>
                 </div>
@@ -130,7 +130,7 @@ export default function Home() {
                 <h1 className="text-3xl md:text-6xl text-[#34495E] font-bold my-6 max-w-250 mx-auto mb-15 font-serif">
                     Aplikasi Kami
                 </h1>
-                <p className="text-[#012F1F] px-20 text-xl font-semibold mb-20 md:mb-50 max-w-250 text-center">
+                <p className="text-[#012F1F] px-5 md:px-20 text-xl font-semibold mb-20 md:mb-50 max-w-250 text-center">
                     Berakar pada tradisi, tumbuh dengan inovasi. Perjalanan kami dimulai dengan keyakinan sederhana dalam praktik pertanian berkelanjutan.
                 </p>
                 <div className="bg-[#012F1F] text-white w-full px-10 md:px-20 grid lg:grid-cols-2 items-center gap-12">
@@ -155,9 +155,9 @@ export default function Home() {
             </Section>
             
             <Section id="dashboard" className="bg-white py-10 pt-0 md:pt-20 pb-20">
-                <div className="container mx-auto px-15">
+                <div className="container mx-auto px-5 md:px-15">
                     <div className="mb-2 text-center">
-                        <h1 className="text-3xl font-bold my-6 mb-10 md:mb-2 max-w-250 mx-auto">
+                        <h1 className="text-xl md:text-3xl font-semibold md:font-bold my-6 mb-10 md:mb-2 max-w-250 mx-auto">
                             Ucapkan Selamat Tinggal pada Pertanian Manual dan Gunakan AgriERP untuk Manajemen Pertanian Anda
                         </h1>
                     </div>
@@ -167,12 +167,12 @@ export default function Home() {
             
             <Section id="petani" className="py-10 mx-0 mt-10">
                 <div className="w-full mx-0">
-                    <div className="mb-4 text-center px-15">
-                        <h1 className="text-5xl font-bold my-6 mb-5 max-w-250 mx-auto text-[#34495E] font-serif">
+                    <div className="mb-4 text-center px-5 md:px-15">
+                        <h1 className="text-3xl md:text-5xl font-bold my-6 mb-5 max-w-250 mx-auto text-[#34495E] font-serif">
                             Layanan Kami
                         </h1>
                         <div className="h-1 mx-25 md:mx-130 bg-[#34495E] mb-10"></div>
-                        <p className='text-lg md:text-2xl px-10 md:px-50 text-[#012F1F]'>
+                        <p className='text-lg font-semibold md:text-2xl px-0 md:px-50 text-[#012F1F]'>
                             Solusi pertanian komprehensif yang disesuaikan dengan kebutuhan Anda, memadukan tradisi dengan teknologi mutakhir.
                         </p>
                     </div>
