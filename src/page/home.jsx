@@ -84,7 +84,7 @@ export default function Home() {
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"></link>
             <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet" />
 
-            <Section id="beranda" className="mx-0 md:mx-20 mt-30 md:mt-40 p-2 mb-0 md:mb-10 lg:mb-35">
+            <Section id="beranda" className="mx-0 md:mx-20 mt-30 md:mt-40 p-2 mb-0 md:mb-0 lg:mb-35">
                 <div className="grid lg:grid-cols-2 items-center gap-0">
                     {/* Text Content */}
                     <div className="space-y-4 px-5 ml-0 md:ml-10">
@@ -110,14 +110,14 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div data-aos="fade-left" className="relative top-0 right-0 mt-10 md:mt-20 lg:mt-0">
-                        <img src="/assets/logo-mata.png" alt="Hero Illustration" className="opacity-0 md:opacity-100 max-w-10 md:max-w-300 mx-auto"/>
+                    <div data-aos="fade-left" className="relative lg:bottom-15 lg:left-10 mt-10 md:mt-20 lg:mt-0">
+                        <img src="/assets/gambar-heading.png" alt="Hero Illustration" className="max-w-50 md:max-w-300 mx-auto"/>
                     </div>
                 </div>
 
             </Section>
 
-            <Section id="bottomheader" className="py-10">
+            <Section id="bottomheader" className="md:py-10">
                 <div className="container mx-auto px-5 md:px-20">
                     <div className="mb-12">
                         <h1 data-aos="fade-up" data-aos-delay="200" className="text-lg md:text-2xl font-semibold my-6 mb-17 text-center">
