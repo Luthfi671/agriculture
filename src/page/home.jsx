@@ -97,15 +97,16 @@ export default function Home() {
                             Temukan perpaduan sempurna antara kearifan tradisional dan inovasi modern di bidang pertanian. Kami memupuk keunggulan dengan setiap benih yang ditanam.
                         </p>
                         <div data-aos="fade-up" data-aos-delay="500" className="flex gap-4 flex-wrap justify-center md:justify-normal">
-                            <button className="flex bg-[#012F1F] text-white text-xl md:text-lg px-6 py-2 rounded-lg font-semibold hover:bg-green-600 transition cursor-pointer">
+                            <button className="flex bg-[#012F1F] text-white md:max-w-40 text-xl md:text-lg px-4 py-2 rounded-lg font-semibold hover:bg-green-600 transition cursor-pointer">
                                 Layanan Kami
                             </button>
-                            <button className="flex border-2 border-[#012F1F] text-[#012F1F] text-xl md:text-lg px-6 py-2 rounded-lg font-semibold hover:bg-green-600 transition cursor-pointer">
+                            <button className="flex border-2 border-[#012F1F] md:max-w-40 text-[#012F1F] text-xl md:text-lg px-4 py-2 rounded-lg font-semibold hover:bg-green-600 transition cursor-pointer">
                                 Hubungi Kami
                             </button>
-                            <button className="flex bg-[#012F1F] text-white text-xl md:text-lg px-6 py-2 rounded-lg font-semibold hover:bg-green-600 transition cursor-pointer">
-                                Download
-                            </button>
+                            <div className='flex flex-col md:flex-row gap-2 md:gap-5'>
+                                <img src="/assets/playstore.png" alt="" className="cursor-pointer w-36"/>
+                                <img src="/assets/appstore.png" alt="" className="cursor-pointer w-36"/>
+                            </div>
                         </div>
                     </div>
 
@@ -145,9 +146,10 @@ export default function Home() {
                         <p className='text-lg md:text-xl'>
                             Kendalikan operasi pertanian Anda dengan aplikasi yang dirancang untuk petani yang aktif. Tanpa basa-basi, hanya perangkat yang Anda butuhkan untuk berhasil.
                         </p>
-                        <button className="border-2 border-green-600 text-xl md:text-lg px-6 py-2 rounded-lg font-semibold hover:bg-green-600 transition cursor-pointer">
-                            Download
-                        </button>
+                        <div className='flex flex-col md:flex-row md:gap-2 gap-2'>
+                            <img src="/assets/playstore.png" alt="" className="cursor-pointer w-40 mx-auto md:mx-0"/>
+                            <img src="/assets/appstore.png" alt="" className="cursor-pointer w-40 mx-auto md:mx-0"/>
+                        </div>
                     </div>
 
                     <div className="relative w-full my-auto md:right-10 lg:right-20">
