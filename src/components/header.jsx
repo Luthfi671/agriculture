@@ -32,8 +32,12 @@ const Header = () => {
           {/* <li><button onClick={() => scrollToSection('hubungi_kami')} className="bg-[#7BD73E] text-black font-bold px-4 py-2 rounded-3xl hover:bg-green-200 hover:text-[#7BD73E] cursor-pointer">Hubungi Kami</button></li> */}
         </ul>
 
-        {menuOpen && (
-          <div className="md:hidden absolute top-full left-0 w-full bg-[#F8F5E6] px-6 py-4 shadow z-40 transition-all duration-300">
+
+          <div className={`md:hidden absolute top-full left-0 w-full bg-[#F8F5E6] px-6 py-4 shadow z-40 transition-all duration-300 ${
+            menuOpen
+              ? "opacity-100 translate-y-0 max-h-[600px] pointer-events-auto"
+              : "opacity-0 -translate-y-2 max-h-0 pointer-events-none"
+          }`}>
             <ul className="flex flex-col space-y-4 font-semibold text-base">
               {/* SERVICES with DROPDOWN */}
               <li><button onClick={() => scrollToSection('beranda')} className="hover:text-[#3cb17b] cursor-pointer">Beranda</button></li>
@@ -42,7 +46,6 @@ const Header = () => {
               {/* <li><button onClick={() => scrollToSection('hubungi_kami')} className="bg-[#7BD73E] text-black font-bold px-4 py-2 rounded-3xl hover:bg-green-200 hover:text-[#7BD73E] cursor-pointer">Hubungi Kami</button></li> */}
             </ul>
           </div>
-        )}
 
       </nav>
     </header>
