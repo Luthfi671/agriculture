@@ -96,11 +96,11 @@ export default function Home() {
                         <p data-aos="fade-up" data-aos-delay="250" className="text-[#012F1F] text-center md:text-left text-lg md:text-xl font-semibold mb-6">
                             Temukan perpaduan sempurna antara kearifan tradisional dan inovasi modern di bidang pertanian. Kami memupuk keunggulan dengan setiap benih yang ditanam.
                         </p>
-                        <div data-aos="fade-up" data-aos-delay="500" className="flex gap-4 flex-wrap justify-center md:justify-normal">
+                        <div data-aos="fade-up" data-aos-delay="500" className="flex gap-4 flex-wrap max-w-70 mx-auto md:max-w-none justify-center md:justify-normal">
                             <button className="flex bg-[#012F1F] text-white md:max-w-40 text-xl md:text-lg px-4 py-2 rounded-lg font-semibold hover:bg-green-600 transition cursor-pointer">
                                 Layanan Kami
                             </button>
-                            <button className="flex border-2 border-[#012F1F] md:max-w-40 text-[#012F1F] text-xl md:text-lg px-4 py-2 rounded-lg font-semibold hover:bg-green-600 transition cursor-pointer">
+                            <button className="flex border-2 border-[#012F1F] md:max-w-40 h-full text-[#012F1F] text-xl md:text-lg px-4 py-2 rounded-lg font-semibold hover:bg-green-600 transition cursor-pointer">
                                 Hubungi Kami
                             </button>
                             <div className='flex flex-col md:flex-row gap-2 md:gap-5'>
